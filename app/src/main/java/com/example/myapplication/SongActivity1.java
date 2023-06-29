@@ -76,6 +76,9 @@ public class SongActivity1 extends AppCompatActivity {
                                 startActivity(in);
                                 break;
                             case 2://hapus data
+                                SQLiteDatabase db = dbcenter.getWritableDatabase();
+                                db.execSQL("delete from music where nama = '" + selection + "'");
+                                RefreshList();
                                 break;
                             default:
                         }
