@@ -55,11 +55,12 @@
         android:id="@+id/button"
         android:layout_width="184dp"
         android:layout_height="50dp"
-        android:layout_gravity="center|bottom"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
         android:background="@drawable/button1"
         android:onClick="checkLogin"
         android:text="Login"
-        android:textColor="#FFFF00"
+        android:textColor="#FFFFFF"
         android:textSize="20sp" />
+
 </LinearLayout>
